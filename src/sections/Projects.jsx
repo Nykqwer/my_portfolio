@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/damdamin.png",
     tags: ["React"],
     link: "#",
-    github: "https://github.com/Nykqwer/book_note",
+    github: "https://github.com/Nykqwer/mood_journal",
   },
   {
     title: "Tupi Residential Information and Employee Management System",
