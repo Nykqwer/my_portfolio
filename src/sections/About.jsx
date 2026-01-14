@@ -1,4 +1,4 @@
-import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
+import { Bold, Code2, Lightbulb, Rocket, Users } from "lucide-react";
 
 const highlights = [
 {
@@ -51,7 +51,7 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a motivated software developer passionate about building web and application systems that solve real problems. 
+                I'm a motivated <span style={{fontWeight: "bold"}}>Full Stack Developer</span> passionate about building web and application systems that solve real problems. 
                 My journey started with curiosity about how things work on the web, 
                 and I enjoy turning ideas into practical, user-friendly solutions.
               </p>
