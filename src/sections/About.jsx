@@ -51,14 +51,12 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a motivated <span style={{fontWeight: "bold"}}>Full Stack Developer</span> passionate about building web and application systems that solve real problems. 
-                My journey started with curiosity about how things work on the web, 
-                and I enjoy turning ideas into practical, user-friendly solutions.
+                  I'm a motivated <span style={{ fontWeight: "bold" }}>Web Developer</span> who enjoys building web and application systems that solve real problems.
+                  I started learning web development because I was genuinely amazed by how the web works, and that curiosity pushed me to keep exploring and improving.
               </p>
               <p>
-                I work with React, Tailwind CSS, and Node.js, 
-                and I’m continuously refining my skills while exploring new technologies like Next.js. 
-                I focus on building clean, responsive, and functional applications that provide great user experiences.
+                 I work with React, Tailwind CSS, and Node.js, and I’m continuously improving my skills while learning new technologies like TypeScript and Next.js.
+            I enjoy building clean, responsive, and functional applications, and I’m eager to adapt and contribute in a fast-changing, AI-driven tech environment.
               </p>
 
             </div>

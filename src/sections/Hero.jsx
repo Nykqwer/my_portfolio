@@ -72,16 +72,16 @@ export const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-              Nyko Gabrielle Lopez <span style={{color: '#E7684C'}}className="glow-text">Full Stack</span>
+              Nyko Gabrielle Lopez <span style={{color: '#E7684C'}}className="glow-text">Web</span>
               <br />
-              Web Developer
+             Developer
               <br />
               <span className="font-serif italic font-normal text-white">
                 
               </span>
             </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-              Hi, I’m Full Stack Developer passionate about building responsive, scalable, 
+              Hi, I’m Web Developer passionate about building responsive, scalable, 
               and user-friendly web and application systems. I enjoy turning ideas into functional, 
               real-world solutions using modern technologies across both frontend and backend. I’m actively seeking opportunities to grow my skills, contribute to innovative projects, and deliver high-quality software solutions.
               </p>
