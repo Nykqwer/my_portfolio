@@ -55,7 +55,7 @@ export const About = () => {
                   I started learning web development because I was genuinely amazed by how the web works, and that curiosity pushed me to keep exploring and improving.
               </p>
               <p>
-                 I work with React, Tailwind CSS, and Node.js, and I’m continuously improving my skills while learning new technologies like TypeScript and Next.js.
+                 I work with React, Tailwind CSS, and Node.js, and I’m continuously improving my skills while learning new technologies like Next.js.
             I enjoy building clean, responsive, and functional applications, and I’m eager to adapt and contribute in a fast-changing, AI-driven tech environment.
               </p>
 

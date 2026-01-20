@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Damdamin",
     description:
-      "Damdamin is a mood journal that detects your emotions while typing, offers personalized advice, and lets you filter and pin your entries for easy tracking.",
+      "Damdamin is a mood journal that analyzes the words you type to identify your emotional state, provides personalized insights, and allows you to filter and pin entries for easy tracking.",
     image: "/projects/damdamin.png",
     tags: ["React"],
     link: "#",

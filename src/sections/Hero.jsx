@@ -17,6 +17,8 @@ const skills = [
   "Java",
   "EJS",
   "React",
+  "TypeScript",
+  "Next.js",
   "Node.js",
   "Express.js",
    "Tkinter",
@@ -94,7 +96,7 @@ export const Hero = () => {
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
             </a>
-            <a href="/gab_resume.pdf" download>
+            <a href="/gab_resumeweb.pdf" download>
               <AnimatedBorderButton >
                 <Download className="w-5 h-5" />
                 Download Resume
