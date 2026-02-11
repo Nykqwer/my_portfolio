@@ -2,6 +2,22 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "The Wild Oasis",
+    description:
+      "The Wild Oasis is a modern cabin booking website that allows guests to create accounts, securely authenticate, and manage their reservations with ease. The system also provides administrative tools for managing cabins, bookings, and guest information, ensuring a smooth and secure booking experience for both users and staff.",
+    image: "/projects/cabin.png",
+    tags: [
+      "Tailwind CSS",
+      "React.js",
+      "TypeScript",
+      "Next.js",
+      "Supabase",
+      "GoogleAuth",
+    ],
+    link: "https://the-wild-oasisz.vercel.app/",
+    github: "https://github.com/Nykqwer/animeList_api",
+  },
+  {
     title: "Damdamin",
     description:
       "Damdamin is a mood journal that analyzes the words you type to identify your emotional state, provides personalized insights, and allows you to filter and pin entries for easy tracking.",
@@ -18,15 +34,6 @@ const projects = [
     tags: ["PHP", "Javascript", "MySQL", "bootstrap", "Tailwind"],
     link: "#",
     github: "https://github.com/Nykqwer/barangay2.0.git",
-  },
-  {
-    title: "AnimeList",
-    description:
-      "An interactive anime list website that lets users search any anime, explore top anime characters in a dynamic carousel, and discover the highest-rated anime all in one place",
-    image: "/projects/animeweb.png",
-    tags: ["EJS", "Node", "Express", "JikanAPI"],
-    link: "#",
-    github: "https://github.com/Nykqwer/animeList_api",
   },
   {
     title: "Book Note",
@@ -59,7 +66,8 @@ export const Projects = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work as I explore and build with new technologies.
+            A selection of my recent work as I explore and build with new
+            technologies.
           </p>
         </div>
 
@@ -86,6 +94,8 @@ export const Projects = () => {
                 {/* Overlay Links */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
@@ -133,11 +143,15 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <a href="https://github.com/Nykqwer?tab=repositories"  rel="noopener noreferrer" target="_blank">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a
+            href="https://github.com/Nykqwer?tab=repositories"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
           </a>
         </div>
       </div>
