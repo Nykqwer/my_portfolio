@@ -96,12 +96,16 @@ export const Hero = () => {
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
             </a>
-            <a href="/gab_resumeweb.pdf" download>
-              <AnimatedBorderButton >
-                <Download className="w-5 h-5" />
-                Download Resume
-              </AnimatedBorderButton>
-              </a>
+            <a 
+            href="/gab-resumeFSfinal.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <AnimatedBorderButton>
+              <Download className="w-5 h-5" />
+              View Resume
+            </AnimatedBorderButton>
+          </a>
             </div>
             
             {/* Social Links */}
