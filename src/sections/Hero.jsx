@@ -97,7 +97,7 @@ export const Hero = () => {
               </Button>
             </a>
             <a 
-            href="/gab-resumeFSfinal.pdf" 
+            href="/nyko-resumeFS.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
           >
